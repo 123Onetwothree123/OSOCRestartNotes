@@ -44,6 +44,8 @@ body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-
     {% for item in group.items %}
       <a href="{{ item.url }}">{{ item.title }}</a>
     {% endfor %}
+  {% elsif group.name contains "docs" %}
+    {% comment %} 不在侧边栏显示 docs 目录 {% endcomment %}
   {% else %}
     <h2>{{ group.name | remove: "/" | remove_first: "/" | default: "根目录" }}</h2>
     {% for item in group.items %}
