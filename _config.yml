@@ -4,6 +4,3 @@ lang: zh-CN
 timezone: Asia/Shanghai
 baseurl: "/OSOCRestartNotes"
 url: "https://123onetwothree123.github.io"
-markdown: kramdown
-kramdown:
-  hard_wrap: true
