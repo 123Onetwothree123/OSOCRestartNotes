@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://123onetwothree123.github.io/OSOCRestartNotes/sitemap.xml
